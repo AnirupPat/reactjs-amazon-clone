@@ -1,5 +1,6 @@
 import React from "react";
 import classes from "./Home.module.css";
+import Product from "../HomeCards/Product/Product";
 
 const Home = () => {
   return (
@@ -12,25 +13,21 @@ const Home = () => {
         />
       </div>
 
-      <div className={classes.home__row}>
-        {
-          // Product
-          // Product
-          // Product
-        }
-      </div>
+      <div className={classes.home__card__section}>
+        <div className={classes.home__row}>
+          <Product />
+          <Product />
+        </div>
 
-      <div className={classes.home__row}>
-        {
-          // Product
-          // Product
-        }
-      </div>
+        <div className={classes.home__row}>
+          <Product />
+          <Product />
+          <Product />
+        </div>
 
-      <div className={classes.home__row}>
-        {
-          // Product
-        }
+        <div className={classes.home__row}>
+          <Product />
+        </div>
       </div>
     </div>
   );
