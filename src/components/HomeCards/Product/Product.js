@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./Product.module.css";
 
-const product = ({ title, price, rating, image }) => {
+const product = ({ id, title, price, rating, image }) => {
   return (
     <div className={classes.product}>
       <div className={classes.product__info}>
