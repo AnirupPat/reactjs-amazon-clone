@@ -1,6 +1,7 @@
 .checkout {
   display: flex;
   flex-direction: row;
+  background-color: white;
   padding: 20px;
   height: max-content;
 }
